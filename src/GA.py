@@ -46,14 +46,21 @@ def FFA(population, size,comeback_chance,best_duration=None):
         new_population.append(winner)
     return new_population
                              
-def my_own_GA(population,size=None,mutation_chance=0.2,comeback_chance=0,best_duration=None):
+def my_own_GA(population,size=None,mutation_chance=0.2,comeback_chance=0,best_duration=None,percentage_of_children=0.95):
     if not size :
         size=len(population)
     new_population = FFA(population,size=size,comeback_chance=comeback_chance,best_duration=best_duration) 
     children = get_crossover(new_population)
     children = get_mutated_orders(children,mutation_chance=mutation_chance)
     children = order_list_to_population(children,population[0].jobs,population[0].nb_machines)
-    return children
+
+    nb_of_children = round(size*percentage_of_children)
+    nb_of_parents = size-nb_of_children
+
+    new_parents = get_best_subpopulation(population,nb_of_parents)
+    new_children = get_best_subpopulation(children,nb_of_children)
+    new_population =  new_children + new_parents
+    return new_population
 
 def get_args(argv):
     parser = argparse.ArgumentParser()
@@ -102,27 +109,17 @@ nb_iter = 100
 nb_iter_GA = 10000
 population_size=100
 
-mutation_chance_max = 0.5
-mutation_chance_min= 0.1
 mutation_chance = 0.2
-mutation_increase_rate_start = 1.0
-mutation_decrease_rate = 0.999
-mutation_increase_rate = mutation_increase_rate_start
-
-
-comeback_chance_max = 0.5
-comeback_chance_min= 0.2
 comeback_chance = 0.2
-comeback_increase_rate_start = 1.00
-comeback_increase_rate = comeback_increase_rate_start
-
 
 optimum_found=False
 
 time_start = time.time()
 
 population = best_voisin.get_2swap_voisinage()
-population = get_best_subpopulation(population,population_size)
+#population = get_best_subpopulation(population,population_size)
+population = random.sample(population,population_size)
+
 new_population = population
     
 for j in range(nb_iter_GA):
@@ -130,24 +127,12 @@ for j in range(nb_iter_GA):
                                size=population_size,
                                mutation_chance=mutation_chance,
                                comeback_chance=comeback_chance,
-                               best_duration=best_voisin.duration)
+                               best_duration=best_voisin.duration,
+                               percentage_of_children=0.8)
     best_of_pop = get_best_voisin(new_population)
-    
-    if(comeback_chance>comeback_chance_max or comeback_chance<comeback_chance_min):
-        comeback_increase_rate = 2-comeback_increase_rate
-        
-    if(mutation_chance>mutation_chance_max or mutation_chance<mutation_chance_min):
-        if(mutation_chance>mutation_chance_max):
-            mutation_increase_rate = mutation_decrease_rate
-        else:
-            mutation_increase_rate = mutation_increase_rate_start
             
     if(best_of_pop.duration < best_voisin.duration):
         print('Meilleur temps trouvé :',best_of_pop.duration)
-        comeback_increase_rate = comeback_increase_rate_start
-        comeback_chance = comeback_chance_min
-        mutation_increase_rate = mutation_increase_rate_start
-        mutation_chance = mutation_chance_min
         best_voisin = best_of_pop
         
         print("Début descente directe")
@@ -165,16 +150,17 @@ for j in range(nb_iter_GA):
         population = best_voisin.get_2swap_voisinage()
         population = get_best_subpopulation(population,population_size)
         new_population = population
-    else:
-        comeback_chance *= comeback_increase_rate
-        mutation_chance *= mutation_increase_rate
 
     if(best_voisin.duration == optimum):
         optimum_found = True
         break
     if(j%50==0):
         mean_duration = get_mean_duration(new_population)
-        print("Iteration : {}, moyenne des durée : {}".format(j,mean_duration))
+        min_duration = get_min_duration(new_population)
+        max_duration = get_max_duration(new_population)
+
+        print("Iteration : {}, moyenne des durée : {}, durée min : {}, durée max : {}".format(j,mean_duration,min_duration,max_duration))
+            
 
 time_end = time.time()
 if(optimum_found): print("Optimum trouvé après {} itérations".format(j))

@@ -62,10 +62,10 @@ def order_list_to_population(order_list,jobs,nb_machines):
     return population
 
 def get_best_subpopulation(population,size):
-    population_copie = population
+    population_copie = copy.copy(population)
     new_population = []
     while len(new_population) != size:
-        best_of_pop = get_best_voisin(population)
+        best_of_pop = get_best_voisin(population_copie)
         population_copie.remove(best_of_pop)
         new_population.append(best_of_pop)
     return new_population
@@ -87,3 +87,17 @@ def get_mean_duration(population):
     for p in population:
         mean_duration += p.duration
     return mean_duration/len(population)
+
+def get_min_duration(population):
+    min_duration = 100000000000
+    for p in population:
+        if(p.duration < min_duration):
+            min_duration = p.duration
+    return min_duration
+
+def get_max_duration(population):
+    max_duration = 0
+    for p in population:
+        if(p.duration > max_duration):
+            max_duration = p.duration
+    return max_duration
