@@ -1,37 +1,45 @@
 Ouverture dans une session de navigateur existante.
 =======Début heuristique=======
-Ordre :  [0 1 0 2 2 4 0 2 0 5 1 4 2 3 4 0 5 5 0 2 3 1 3 4 5 3 2 1 4 4 5 1 5 3 3 1]
-Durée :  69
+Ordre :  [0 5 0 2 5 3 2 4 5 3 0 0 1 3 2 5 3 4 1 0 3 2 5 3 2 1 5 4 1 0 4 1 2 4 1 4]
+Durée :  71
 =======Fin heuristique=======
 
 =======Début descente directe=======
-Meilleur temps trouvé : 64
 Meilleur temps trouvé : 61
-Meilleur temps trouvé : 58
+Meilleur temps trouvé : 60
+Meilleur temps trouvé : 59
 Convergence terminée
-Descente directe :  [0 1 0 2 2 1 0 2 0 5 1 4 2 3 4 0 5 5 2 3 1 3 4 5 3 2 1 4 4 3 5 1 5 3 4 0]
-Durée :  58
+Descente directe :  [0 5 0 2 5 3 2 4 5 1 4 0 0 1 3 2 5 3 4 1 4 0 3 2 5 3 2 1 5 4 1 0 4 1 2 3]
+Durée :  59
 
 =======Début exploration génétique=======
-Iteration : 0, moyenne des durée : 61.09, durée min : 58, durée max : 73
-Iteration : 50, moyenne des durée : 58.0, durée min : 58, durée max : 58
-Iteration : 100, moyenne des durée : 58.0, durée min : 58, durée max : 58
-Iteration : 150, moyenne des durée : 58.1, durée min : 58, durée max : 61
-Iteration : 200, moyenne des durée : 58.0, durée min : 58, durée max : 58
+Iteration : 0, moyenne des durée : 63.69, durée min : 59, durée max : 76
+Iteration : 50, moyenne des durée : 60.77, durée min : 59, durée max : 71
+Meilleur temps trouvé : 58
+=======Début descente directe=======
+=======Convergence terminée=======
+Descente directe :  [0 5 1 2 5 3 2 1 5 0 4 0 1 3 2 4 3 5 4 1 4 0 3 2 5 3 2 4 5 4 1 0 1 2 0 3]
+Durée :  58
+Iteration : 100, moyenne des durée : 59.09, durée min : 58, durée max : 64
+Iteration : 150, moyenne des durée : 58.16, durée min : 58, durée max : 61
+Iteration : 200, moyenne des durée : 58.63, durée min : 58, durée max : 63
+Iteration : 250, moyenne des durée : 58.93, durée min : 58, durée max : 64
+Iteration : 300, moyenne des durée : 58.94, durée min : 58, durée max : 64
+Iteration : 350, moyenne des durée : 58.47, durée min : 58, durée max : 63
+Iteration : 400, moyenne des durée : 58.36, durée min : 58, durée max : 61
+Iteration : 450, moyenne des durée : 58.0, durée min : 58, durée max : 58
+Iteration : 500, moyenne des durée : 58.52, durée min : 58, durée max : 63
+Iteration : 550, moyenne des durée : 58.17, durée min : 58, durée max : 61
+Iteration : 600, moyenne des durée : 58.06, durée min : 58, durée max : 61
+Iteration : 650, moyenne des durée : 58.65, durée min : 58, durée max : 63
 Meilleur temps trouvé : 57
 =======Début descente directe=======
-=======Convergence terminée=======
-Descente directe :  [0 1 2 2 1 0 2 5 5 1 4 3 3 0 4 0 5 0 2 3 1 3 4 5 4 3 2 1 4 3 5 1 5 4 0 2]
-Durée :  57
-Iteration : 250, moyenne des durée : 57.0, durée min : 57, durée max : 57
-Iteration : 300, moyenne des durée : 57.0, durée min : 57, durée max : 57
 Meilleur temps trouvé : 56
-=======Début descente directe=======
 Meilleur temps trouvé : 55
 =======Convergence terminée=======
-Descente directe :  [0 1 2 2 1 0 2 3 5 5 1 4 3 3 0 4 2 5 0 2 3 1 4 5 4 0 2 1 3 4 5 1 5 4 3 0]
+Descente directe :  [0 2 1 2 3 5 2 1 5 0 4 0 1 3 2 4 0 3 5 4 1 4 0 3 2 5 1 2 4 1 3 4 5 0 3 5]
 Durée :  55
-Optimum trouvé après 324 itérations
-Temps :  28.20588183403015
+Optimum trouvé après 696 itérations
+Temps :  54.09399104118347
 Durée final 55
-Ordre final [0 1 2 2 1 0 2 3 5 5 1 4 3 3 0 4 2 5 0 2 3 1 4 5 4 0 2 1 3 4 5 1 5 4 3 0]
+Ordre final [0 2 1 2 3 5 2 1 5 0 4 0 1 3 2 4 0 3 5 4 1 4 0 3 2 5 1 2 4 1 3 4 5 0 3 5]
