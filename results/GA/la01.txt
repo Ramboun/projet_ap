@@ -1,0 +1,21 @@
+Ouverture dans une session de navigateur existante.
+=======Début heuristique=======
+Ordre :  [8 0 1 7 9 2 8 0 6 5 7 8 0 5 3 1 8 9 4 8 1 7 6 7 3 1 4 5 6 9 0 4 3 5 1 0 6
+ 4 7 5 9 3 6 2 3 9 4 2 2 2]
+Durée :  731
+=======Fin heuristique=======
+
+=======Début descente directe=======
+Meilleur temps trouvé : 673
+Meilleur temps trouvé : 666
+Convergence terminée
+Descente directe :  [8 0 1 7 9 2 8 0 6 5 7 8 0 5 3 1 8 9 4 8 1 7 6 9 3 1 4 5 6 9 0 4 3 5 1 6 4
+ 7 5 9 3 6 2 3 7 4 2 2 2 0]
+Durée :  666
+
+=======Début exploration génétique=======
+Optimum trouvé après 0 itérations
+Temps :  3.1669797897338867
+Durée final 666
+Ordre final [8 0 1 7 9 2 8 0 6 5 7 8 0 5 3 1 8 9 4 8 1 7 6 9 3 1 4 5 6 9 0 4 3 5 1 6 4
+ 7 5 9 3 6 2 3 7 4 2 2 2 0]

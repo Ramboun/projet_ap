@@ -1,0 +1,41 @@
+Ouverture dans une session de navigateur existante.
+=======Début heuristique=======
+Ordre :  [12  4 10  0  5  7  4 10  6  3  8  0  7  5  3  9  2  0  4 10  7  3  9  0
+  4  0  3 10 11 10  7  9  9  8  7  4  9 11  5 14  8  1  5 12  3  5  1 14
+ 12  6  2 14 12  1  6 13  2 12 14  1  6  2 14  8 13  6  2 13  1 11 13 13
+  8 11 11]
+Durée :  1042
+=======Fin heuristique=======
+
+=======Début descente directe=======
+Meilleur temps trouvé : 1025
+Meilleur temps trouvé : 1016
+Meilleur temps trouvé : 1010
+Meilleur temps trouvé : 1004
+Meilleur temps trouvé : 995
+Meilleur temps trouvé : 971
+Meilleur temps trouvé : 961
+Convergence terminée
+Descente directe :  [12  4 10  0  5  7  4 10  6  3  8  0  7  5  3  9  2  0  4 10  7  3  9  0
+  4  0  3 10 11 10  7  9  9  8  7  4  1 13 11  5 14  8  1  5 12  3  1 14
+  6  2 14 12  1  6 13  2  2  6  2 14  8 13  6 14 13  1 11 13  9  8 12 11
+ 11 12  5]
+Durée :  961
+
+=======Début exploration génétique=======
+Iteration : 0, moyenne des durée : 1016.64, durée min : 961, durée max : 1135
+Meilleur temps trouvé : 958
+=======Début descente directe=======
+=======Convergence terminée=======
+Descente directe :  [12  4 10  0  2  5  7  4 10  6  3  8  0  7  5  3  9  0  4 10  7  3  9  0
+  4  0  3 10 11 10  7  9  9  8  7  6  1 13 11  5 14  8  1  2  5 12  3  1
+ 14  6  2 14 12  1 13  2  2  6 14  8 13  4 14 13  1 11 13  9  8 12 11 11
+ 12  5  6]
+Durée :  958
+Optimum trouvé après 12 itérations
+Temps :  33.49127221107483
+Durée final 958
+Ordre final [12  4 10  0  2  5  7  4 10  6  3  8  0  7  5  3  9  0  4 10  7  3  9  0
+  4  0  3 10 11 10  7  9  9  8  7  6  1 13 11  5 14  8  1  2  5 12  3  1
+ 14  6  2 14 12  1 13  2  2  6 14  8 13  4 14 13  1 11 13  9  8 12 11 11
+ 12  5  6]
