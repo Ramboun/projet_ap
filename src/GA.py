@@ -81,16 +81,17 @@ args = get_args(sys.argv)
 instance_path = args.JSPLIB + 'instances/'
 instance_info_path = args.JSPLIB + 'instances.json'
 instance = InstanceHeuristic(args.instance_name,instance_path,instance_info_path)
-print('Début heuristique')
-instance.start_heuristic(fct=LPT,rand=0.1,display=False)
+print('=======Début heuristique=======')
+instance.start_heuristic(fct=SPT,rand=0.1,display=False)
 rep_order = RepetitionOrder(instance.order,instance.jobs,instance.n_machines) 
-print("Descente directe : ",rep_order.order)
+print("Ordre : ",rep_order.order)
 print("Durée : ",rep_order.duration)
-print("Fin heuristique")
+print("=======Fin heuristique=======")
+print('')
 
 best_voisin = rep_order
 nb_iteration = 1000
-print("Début descente directe")
+print("=======Début descente directe=======")
 for i in range(nb_iteration):
     voisins = best_voisin.get_2swap_voisinage()
     if((best_voisin.order == get_best_voisin(voisins).order).all()):
@@ -102,8 +103,9 @@ for i in range(nb_iteration):
 
 print("Descente directe : ",best_voisin.order)
 print("Durée : ",best_voisin.duration)
+print('')
 
-print("Début exploration génétique")
+print("=======Début exploration génétique=======")
 optimum = instance.instance_info['optimum']
 nb_iter = 100
 nb_iter_GA = 10000
@@ -135,11 +137,11 @@ for j in range(nb_iter_GA):
         print('Meilleur temps trouvé :',best_of_pop.duration)
         best_voisin = best_of_pop
         
-        print("Début descente directe")
+        print("=======Début descente directe=======")
         for i in range(nb_iteration):
             voisins = best_voisin.get_2swap_voisinage()
             if((best_voisin.order == get_best_voisin(voisins).order).all()):
-                print("Convergence terminée")
+                print("=======Convergence terminée=======")
                 break
             else:
                 best_voisin = get_best_voisin(voisins)
