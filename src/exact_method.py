@@ -22,7 +22,7 @@ def get_args(argv):
         "--instance_name",
         default="ft06",
         help="Input video file.", )
-    return args
+    return parser.parse_args()
 
 
 args = get_args(sys.argv)
