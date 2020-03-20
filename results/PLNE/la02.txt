@@ -1,0 +1,121 @@
+Resolution...
+ ! -------------------------------------------------- CP Optimizer 12.10.0.0 --
+ ! Minimization problem - 55 variables, 45 constraints
+ ! TimeLimit            = 15
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 282.2 (before), 282.2 (after)
+ !  . Memory usage      : 544.5 kB (before), 544.5 kB (after)
+ ! Using parallel search with 4 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         55                 -
+ + New bound is 394
+ ! Using iterative diving.
+ *           828      101  0.05s        1      (gap is 52.42%)
+ *           801      201  0.05s        1      (gap is 50.81%)
+ *           800      301  0.05s        1      (gap is 50.75%)
+ *           795      521  0.05s        1      (gap is 50.44%)
+ *           792      681  0.05s        1      (gap is 50.25%)
+ *           788      888  0.05s        1      (gap is 50.00%)
+ *           784      939  0.05s        1      (gap is 49.74%)
+             784     1000          1    1       456  = startOf(O6-3)
+ *           720     1406  0.05s        1      (gap is 45.28%)
+ *           689     1840  0.05s        1      (gap is 42.82%)
+             689     2000          1    1   F         !presenceOf(O8-1)
+ *           666     2689  0.05s        1      (gap is 40.84%)
+             666     3000          1    1       199 != startOf(O0-3)
+             666     3113         24    1            -
+ + New bound is 655 (gap is 1.65%)
+ ! Using failure-directed search.
+             666     1000          1    2       456  = startOf(O6-3)
+             666     2000          1    2   F         !presenceOf(O8-1)
+             666     3000          1    2       199 != startOf(O0-3)
+             666     4000          1    2        20  = startOf(O0-1)
+             666     5000          1    2       184 != startOf(O3-0)
+ ! Time = 0.05s, Average fail depth = 29, Memory usage = 2.4 MB
+ ! Current bound is 655 (gap is 1.65%)
+ !          Best Branches  Non-fixed    W       Branch decision
+             666     1000          1    3       417  = startOf(O4-4)
+             666     2000          1    3       465 != startOf(O2-3)
+             666     3000          1    3   F         !presenceOf(O1-4)
+             666     4000         20    3       111 != startOf(O4-2)
+             666     5000         20    3       454 != startOf(O7-3)
+             666     6000         20    3       221 != startOf(O3-1)
+             666     4000          1    1   F   213 <= startOf(O6-1)
+             666     6000          1    2       106 != startOf(O5-0)
+             666     7000          1    2       184  = startOf(O9-2)
+             666     7000         20    3   F   236  = startOf(O4-4)
+             666    44214          2    4 
+ *           660     7138  0.10s        2      (gap is 0.76%)
+             660     8000          1    2       558  = startOf(O9-4)
+ *           657     8023  0.10s        2      (gap is 0.30%)
+ *           655     8117  0.10s        2      (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 13 solutions found.
+ ! Best objective         : 655 (optimal - effective tol. is 0)
+ ! Best bound             : 655
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 139295
+ ! Number of fails        : 18136
+ ! Total memory usage     : 3.0 MB (2.9 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 0.16s (0.16s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 870593.7
+ ! ----------------------------------------------------------------------------
+Solution : 
+-------------------------------------------------------------------------------
+Model constraints: 45, variables: integer: 0, interval: 50, sequence: 5
+Solve status: Optimal, Fail status: SearchHasFailedNormally
+Search status: SearchCompleted, stop cause: SearchHasNotBeenStopped
+Solve time: 0.17 sec
+-------------------------------------------------------------------------------
+Objective values: (655,), bounds: (655,), gaps: (0,)
+O0-0: (start=0, end=20, size=20, length=20)
+O0-1: (start=20, end=107, size=87, length=87)
+O0-2: (start=361, end=392, size=31, length=31)
+O0-3: (start=421, end=497, size=76, length=76)
+O0-4: (start=523, end=540, size=17, length=17)
+O1-0: (start=27, end=52, size=25, length=25)
+O1-1: (start=52, end=84, size=32, length=32)
+O1-2: (start=84, end=108, size=24, length=24)
+O1-3: (start=151, end=169, size=18, length=18)
+O1-4: (start=174, end=255, size=81, length=81)
+O2-0: (start=67, end=139, size=72, length=72)
+O2-1: (start=139, end=162, size=23, length=23)
+O2-2: (start=162, end=190, size=28, length=28)
+O2-3: (start=206, end=264, size=58, length=58)
+O2-4: (start=282, end=381, size=99, length=99)
+O3-0: (start=162, end=248, size=86, length=86)
+O3-1: (start=248, end=324, size=76, length=76)
+O3-2: (start=324, end=421, size=97, length=97)
+O3-3: (start=433, end=478, size=45, length=45)
+O3-4: (start=510, end=600, size=90, length=90)
+O4-0: (start=0, end=27, size=27, length=27)
+O4-1: (start=27, end=69, size=42, length=42)
+O4-2: (start=107, end=155, size=48, length=48)
+O4-3: (start=506, end=523, size=17, length=17)
+O4-4: (start=547, end=593, size=46, length=46)
+O5-0: (start=0, end=67, size=67, length=67)
+O5-1: (start=108, end=206, size=98, length=98)
+O5-2: (start=206, end=254, size=48, length=48)
+O5-3: (start=255, end=282, size=27, length=27)
+O5-4: (start=282, end=344, size=62, length=62)
+O6-0: (start=52, end=80, size=28, length=28)
+O6-1: (start=139, end=151, size=12, length=12)
+O6-2: (start=155, end=174, size=19, length=19)
+O6-3: (start=478, end=558, size=80, length=80)
+O6-4: (start=558, end=608, size=50, length=50)
+O7-0: (start=169, end=232, size=63, length=63)
+O7-1: (start=264, end=358, size=94, length=94)
+O7-2: (start=358, end=456, size=98, length=98)
+O7-3: (start=460, end=510, size=50, length=50)
+O7-4: (start=510, end=590, size=80, length=80)
+O8-0: (start=190, end=204, size=14, length=14)
+O8-1: (start=358, end=433, size=75, length=75)
+O8-2: (start=456, end=506, size=50, length=50)
+O8-3: (start=506, end=547, size=41, length=41)
+O8-4: (start=600, end=655, size=55, length=55)
+O9-0: (start=80, end=152, size=72, length=72)
+O9-1: (start=248, end=266, size=18, length=18)
+O9-2: (start=324, end=361, size=37, length=37)
+O9-3: (start=381, end=460, size=79, length=79)
+O9-4: (start=558, end=619, size=61, length=61)

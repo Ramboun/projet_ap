@@ -21,12 +21,17 @@ def get_args(argv):
     parser.add_argument(
         "--instance_name",
         default="ft06",
-        help="Input video file.", )
+        help="Input file.", )
+    parser.add_argument(
+        "--display",
+        default="1",
+        help="1: display GANTT, 0: do not display GANTT", )
     return parser.parse_args()
 
 
 args = get_args(sys.argv)
 file_name = args.instance_name
+display = args.display
 path_file = os.path.dirname(os.path.abspath(os.getcwd())) + "/JSPLIB/instances/" + file_name
 
 JOBS = []
@@ -38,7 +43,6 @@ with open(path_file, "r") as file_name:
     lines = file_name.readlines()
     for line in lines:
         if line.rfind('#') == -1:
-            print(line)
             if NB_JOBS == 0 and NB_MACHINES == 0:
                 NB_JOBS, NB_MACHINES = [int(str) for str in line.split()]
             else:
@@ -91,8 +95,9 @@ msol = mdl.solve(TimeLimit=15)
 print("Solution : ")
 msol.print_solution()
 
+
 # Draw solution
-if msol and visu.is_visu_enabled():
+if msol and visu.is_visu_enabled() and display == 1:
     visu.timeline("Solution pour le fichier  " + path_file)
     visu.panel("Jobs")
     for i in range(NB_JOBS):

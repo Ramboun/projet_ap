@@ -1,0 +1,79 @@
+Resolution...
+ ! -------------------------------------------------- CP Optimizer 12.10.0.0 --
+ ! Minimization problem - 42 variables, 36 constraints
+ ! TimeLimit            = 15
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 186.1 (before), 186.1 (after)
+ !  . Memory usage      : 542.3 kB (before), 542.3 kB (after)
+ ! Using parallel search with 4 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         42                 -
+ + New bound is 47
+ ! Using iterative diving.
+ *            65       73  0.01s        1      (gap is 27.69%)
+ *            63      145  0.01s        1      (gap is 25.40%)
+ *            61      217  0.01s        1      (gap is 22.95%)
+ *            60      289  0.01s        1      (gap is 21.67%)
+ *            59      361  0.01s        1      (gap is 20.34%)
+ *            58      433  0.01s        1      (gap is 18.97%)
+ *            57      505  0.01s        1      (gap is 17.54%)
+ *            56      562  0.01s        1      (gap is 16.07%)
+ *            55      593  0.01s        1      (gap is 14.55%)
+              55      619          1    1   F         !presenceOf(O0-0)
+ + New bound is 55 (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 9 solutions found.
+ ! Best objective         : 55 (optimal - effective tol. is 0)
+ ! Best bound             : 55
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 66774
+ ! Number of fails        : 2293
+ ! Total memory usage     : 2.6 MB (2.6 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 0.01s (0.01s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 3338700.1
+ ! ----------------------------------------------------------------------------
+Solution : 
+-------------------------------------------------------------------------------
+Model constraints: 36, variables: integer: 0, interval: 36, sequence: 6
+Solve status: Optimal, Fail status: SearchHasFailedNormally
+Search status: SearchCompleted, stop cause: SearchHasNotBeenStopped
+Solve time: 0.02 sec
+-------------------------------------------------------------------------------
+Objective values: (55,), bounds: (55,), gaps: (0,)
+O0-0: (start=5, end=6, size=1, length=1)
+O0-1: (start=6, end=9, size=3, length=3)
+O0-2: (start=16, end=22, size=6, length=6)
+O0-3: (start=30, end=37, size=7, length=7)
+O0-4: (start=42, end=45, size=3, length=3)
+O0-5: (start=49, end=55, size=6, length=6)
+O1-0: (start=0, end=8, size=8, length=8)
+O1-1: (start=8, end=13, size=5, length=5)
+O1-2: (start=13, end=23, size=10, length=10)
+O1-3: (start=28, end=38, size=10, length=10)
+O1-4: (start=38, end=48, size=10, length=10)
+O1-5: (start=48, end=52, size=4, length=4)
+O2-0: (start=0, end=5, size=5, length=5)
+O2-1: (start=5, end=9, size=4, length=4)
+O2-2: (start=9, end=17, size=8, length=8)
+O2-3: (start=18, end=27, size=9, length=9)
+O2-4: (start=27, end=28, size=1, length=1)
+O2-5: (start=38, end=45, size=7, length=7)
+O3-0: (start=8, end=13, size=5, length=5)
+O3-1: (start=13, end=18, size=5, length=5)
+O3-2: (start=22, end=27, size=5, length=5)
+O3-3: (start=27, end=30, size=3, length=3)
+O3-4: (start=30, end=38, size=8, length=8)
+O3-5: (start=45, end=54, size=9, length=9)
+O4-0: (start=13, end=22, size=9, length=9)
+O4-1: (start=22, end=25, size=3, length=3)
+O4-2: (start=25, end=30, size=5, length=5)
+O4-3: (start=38, end=42, size=4, length=4)
+O4-4: (start=48, end=51, size=3, length=3)
+O4-5: (start=52, end=53, size=1, length=1)
+O5-0: (start=13, end=16, size=3, length=3)
+O5-1: (start=16, end=19, size=3, length=3)
+O5-2: (start=19, end=28, size=9, length=9)
+O5-3: (start=28, end=38, size=10, length=10)
+O5-4: (start=45, end=49, size=4, length=4)
+O5-5: (start=49, end=50, size=1, length=1)

@@ -1,0 +1,136 @@
+Resolution...
+ ! -------------------------------------------------- CP Optimizer 12.10.0.0 --
+ ! Minimization problem - 105 variables, 85 constraints
+ ! TimeLimit            = 15
+ ! Initial process time : 0.01s (0.01s extraction + 0.00s propagation)
+ !  . Log search space  : 664.4 (before), 664.4 (after)
+ !  . Memory usage      : 681.7 kB (before), 681.7 kB (after)
+ ! Using parallel search with 4 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        105                 -
+ + New bound is 443
+ ! Using iterative diving.
+ *          1366      201  0.02s        1      (gap is 67.57%)
+ *          1292      401  0.02s        1      (gap is 65.71%)
+            1292      402        104    1   F        -
+ + New bound is 1292 (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 2 solutions found.
+ ! Best objective         : 1292 (optimal - effective tol. is 0)
+ ! Best bound             : 1292
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 69543
+ ! Number of fails        : 819
+ ! Total memory usage     : 3.2 MB (3.1 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 0.03s (0.01s engine + 0.01s extraction)
+ ! Search speed (br. / s) : 3477150.1
+ ! ----------------------------------------------------------------------------
+Solution : 
+-------------------------------------------------------------------------------
+Model constraints: 85, variables: integer: 0, interval: 100, sequence: 5
+Solve status: Optimal, Fail status: SearchHasFailedNormally
+Search status: SearchCompleted, stop cause: SearchHasNotBeenStopped
+Solve time: 0.03 sec
+-------------------------------------------------------------------------------
+Objective values: (1292,), bounds: (1292,), gaps: (0,)
+O0-0: (start=193, end=198, size=5, length=5)
+O0-1: (start=207, end=265, size=58, length=58)
+O0-2: (start=322, end=366, size=44, length=44)
+O0-3: (start=425, end=434, size=9, length=9)
+O0-4: (start=911, end=969, size=58, length=58)
+O1-0: (start=257, end=346, size=89, length=89)
+O1-1: (start=628, end=724, size=96, length=96)
+O1-2: (start=724, end=821, size=97, length=97)
+O1-3: (start=821, end=905, size=84, length=84)
+O1-4: (start=914, end=991, size=77, length=77)
+O2-0: (start=48, end=129, size=81, length=81)
+O2-1: (start=330, end=415, size=85, length=85)
+O2-2: (start=1077, end=1164, size=87, length=87)
+O2-3: (start=1164, end=1203, size=39, length=39)
+O2-4: (start=1203, end=1280, size=77, length=77)
+O3-0: (start=0, end=15, size=15, length=15)
+O3-1: (start=198, end=255, size=57, length=57)
+O3-2: (start=555, end=628, size=73, length=73)
+O3-3: (start=969, end=990, size=21, length=21)
+O3-4: (start=990, end=1021, size=31, length=31)
+O4-0: (start=0, end=48, size=48, length=48)
+O4-1: (start=444, end=515, size=71, length=71)
+O4-2: (start=554, end=624, size=70, length=70)
+O4-3: (start=821, end=861, size=40, length=40)
+O4-4: (start=1243, end=1292, size=49, length=49)
+O5-0: (start=69, end=79, size=10, length=10)
+O5-1: (start=265, end=347, size=82, length=82)
+O5-2: (start=520, end=554, size=34, length=34)
+O5-3: (start=568, end=648, size=80, length=80)
+O5-4: (start=1221, end=1243, size=22, length=22)
+O6-0: (start=129, end=146, size=17, length=17)
+O6-1: (start=146, end=201, size=55, length=55)
+O6-2: (start=418, end=509, size=91, length=91)
+O6-3: (start=832, end=907, size=75, length=75)
+O6-4: (start=907, end=914, size=7, length=7)
+O7-0: (start=131, end=178, size=47, length=47)
+O7-1: (start=260, end=322, size=62, length=62)
+O7-2: (start=768, end=840, size=72, length=72)
+O7-3: (start=907, end=942, size=35, length=35)
+O7-4: (start=942, end=953, size=11, length=11)
+O8-0: (start=167, end=257, size=90, length=90)
+O8-1: (start=366, end=460, size=94, length=94)
+O8-2: (start=942, end=992, size=50, length=50)
+O8-3: (start=992, end=1056, size=64, length=64)
+O8-4: (start=1056, end=1131, size=75, length=75)
+O9-0: (start=178, end=193, size=15, length=15)
+O9-1: (start=193, end=260, size=67, length=67)
+O9-2: (start=276, end=288, size=12, length=12)
+O9-3: (start=724, end=744, size=20, length=20)
+O9-4: (start=840, end=911, size=71, length=71)
+O10-0: (start=114, end=207, size=93, length=93)
+O10-1: (start=460, end=489, size=29, length=29)
+O10-2: (start=540, end=592, size=52, length=52)
+O10-3: (start=1164, end=1221, size=57, length=57)
+O10-4: (start=1221, end=1289, size=68, length=68)
+O11-0: (start=54, end=131, size=77, length=77)
+O11-1: (start=509, end=602, size=93, length=93)
+O11-2: (start=628, end=686, size=58, length=58)
+O11-3: (start=686, end=756, size=70, length=70)
+O11-4: (start=1086, end=1093, size=7, length=7)
+O12-0: (start=78, end=141, size=63, length=63)
+O12-1: (start=303, end=330, size=27, length=27)
+O12-2: (start=330, end=425, size=95, length=95)
+O12-3: (start=992, end=998, size=6, length=6)
+O12-4: (start=1021, end=1103, size=82, length=82)
+O13-0: (start=78, end=114, size=36, length=36)
+O13-1: (start=114, end=140, size=26, length=26)
+O13-2: (start=255, end=303, size=48, length=48)
+O13-3: (start=489, end=545, size=56, length=56)
+O13-4: (start=990, end=1077, size=87, length=87)
+O14-0: (start=146, end=182, size=36, length=36)
+O14-1: (start=346, end=354, size=8, length=8)
+O14-2: (start=429, end=444, size=15, length=15)
+O14-3: (start=444, end=520, size=76, length=76)
+O14-4: (start=592, end=628, size=36, length=36)
+O15-0: (start=0, end=78, size=78, length=78)
+O15-1: (start=602, end=686, size=84, length=84)
+O15-2: (start=686, end=727, size=41, length=41)
+O15-3: (start=861, end=891, size=30, length=30)
+O15-4: (start=905, end=981, size=76, length=76)
+O16-0: (start=0, end=78, size=78, length=78)
+O16-1: (start=201, end=276, size=75, length=75)
+O16-2: (start=744, end=832, size=88, length=88)
+O16-3: (start=832, end=845, size=13, length=13)
+O16-4: (start=1103, end=1184, size=81, length=81)
+O17-0: (start=15, end=69, size=54, length=54)
+O17-1: (start=515, end=555, size=40, length=40)
+O17-2: (start=555, end=568, size=13, length=13)
+O17-3: (start=686, end=768, size=82, length=82)
+O17-4: (start=768, end=797, size=29, length=29)
+O18-0: (start=141, end=167, size=26, length=26)
+O18-1: (start=347, end=429, size=82, length=82)
+O18-2: (start=434, end=486, size=52, length=52)
+O18-3: (start=624, end=630, size=6, length=6)
+O18-4: (start=648, end=654, size=6, length=6)
+O19-0: (start=0, end=54, size=54, length=54)
+O19-1: (start=354, end=418, size=64, length=64)
+O19-2: (start=486, end=540, size=54, length=54)
+O19-3: (start=654, end=686, size=32, length=32)
+O19-4: (start=998, end=1086, size=88, length=88)
