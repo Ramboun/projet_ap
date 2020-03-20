@@ -5,7 +5,7 @@ scriptspython=/home/vavalm/PycharmProjects/projet_ap/src/
 resultat=/home/vavalm/PycharmProjects/projet_ap/results/GA/
 
 cd $scriptsinstances
-for instance in la3*;
+for instance in la27*;
 do
   echo  $instance;
   cd /home/vavalm/PycharmProjects/projet_ap/src
