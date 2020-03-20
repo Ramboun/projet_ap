@@ -1,0 +1,79 @@
+Ouverture dans une session de navigateur existante.
+=======Début heuristique=======
+Ordre :  [ 0 16  3 17  8 18  9 11 12  2 10 16  0  6 18 16 11  1  6  2 12 13  1 14
+  3 11 18  1 10 17  1  2  0 18  4 18  2 14  1 11 11  6  0 14  3 10 17 13
+ 15  0  4 10  6  9  3 13  4 14 15 17  3 19  6  2  9  4 14 10 15 17  7  9
+ 19  4 12  9 19 15  7 12 13 16 15 12  7  8 16 13  8  5  8  7 19  8  5  7
+  5 19  5  5]
+Durée :  1399
+=======Fin heuristique=======
+
+=======Début descente directe=======
+Meilleur temps trouvé : 1366
+Meilleur temps trouvé : 1324
+Meilleur temps trouvé : 1288
+Meilleur temps trouvé : 1252
+Meilleur temps trouvé : 1250
+Meilleur temps trouvé : 1242
+Convergence terminée
+Descente directe :  [ 0 16  3 17  8 18  9 11 12  2 10 16  0  6 18 16 11  1  6  2 12 13  1 14
+  3 11 18  1 10 17  1  2  0 18  4 18  2 14  1 11 11  6  0 14  3 10 17 13
+ 15  0  4 10  6  9  3 13  4 14 15 17  3 19  8  9  4 14 10 15 17  7  9 19
+  4 12  9 19  5  7 12  5 16 15 12  7  8 16  8  5 13  8  7 19  2  5  7  5
+ 19 13 15  6]
+Durée :  1242
+
+=======Début exploration génétique=======
+Iteration : 0, moyenne des durée : 1274.91, durée min : 1242, durée max : 1347
+Iteration : 50, moyenne des durée : 1245.26, durée min : 1242, durée max : 1294
+Iteration : 100, moyenne des durée : 1244.04, durée min : 1242, durée max : 1294
+Iteration : 150, moyenne des durée : 1242.28, durée min : 1242, durée max : 1256
+Iteration : 200, moyenne des durée : 1244.56, durée min : 1242, durée max : 1292
+Iteration : 250, moyenne des durée : 1242.94, durée min : 1242, durée max : 1256
+Iteration : 300, moyenne des durée : 1242.99, durée min : 1242, durée max : 1270
+Iteration : 350, moyenne des durée : 1245.75, durée min : 1242, durée max : 1308
+Iteration : 400, moyenne des durée : 1244.79, durée min : 1242, durée max : 1294
+Iteration : 450, moyenne des durée : 1242.13, durée min : 1242, durée max : 1253
+Iteration : 500, moyenne des durée : 1243.15, durée min : 1242, durée max : 1293
+Iteration : 550, moyenne des durée : 1242.11, durée min : 1242, durée max : 1253
+Iteration : 600, moyenne des durée : 1243.3, durée min : 1242, durée max : 1279
+Iteration : 650, moyenne des durée : 1243.13, durée min : 1242, durée max : 1262
+Iteration : 700, moyenne des durée : 1245.79, durée min : 1242, durée max : 1308
+Iteration : 750, moyenne des durée : 1242.0, durée min : 1242, durée max : 1242
+Iteration : 800, moyenne des durée : 1242.0, durée min : 1242, durée max : 1242
+Iteration : 850, moyenne des durée : 1242.35, durée min : 1242, durée max : 1253
+Iteration : 900, moyenne des durée : 1242.0, durée min : 1242, durée max : 1242
+Iteration : 950, moyenne des durée : 1242.0, durée min : 1242, durée max : 1242
+Iteration : 1000, moyenne des durée : 1242.3, durée min : 1242, durée max : 1253
+Iteration : 1050, moyenne des durée : 1242.0, durée min : 1242, durée max : 1242
+Iteration : 1100, moyenne des durée : 1243.07, durée min : 1242, durée max : 1266
+Iteration : 1150, moyenne des durée : 1242.0, durée min : 1242, durée max : 1242
+Iteration : 1200, moyenne des durée : 1242.0, durée min : 1242, durée max : 1242
+Iteration : 1250, moyenne des durée : 1244.07, durée min : 1242, durée max : 1293
+Iteration : 1300, moyenne des durée : 1243.71, durée min : 1242, durée max : 1273
+Iteration : 1350, moyenne des durée : 1242.25, durée min : 1242, durée max : 1256
+Iteration : 1400, moyenne des durée : 1243.49, durée min : 1242, durée max : 1303
+Iteration : 1450, moyenne des durée : 1244.06, durée min : 1242, durée max : 1294
+Iteration : 1500, moyenne des durée : 1245.2, durée min : 1242, durée max : 1310
+Meilleur temps trouvé : 1241
+=======Début descente directe=======
+Meilleur temps trouvé : 1234
+Meilleur temps trouvé : 1213
+Meilleur temps trouvé : 1212
+Meilleur temps trouvé : 1211
+Meilleur temps trouvé : 1207
+=======Convergence terminée=======
+Descente directe :  [ 0 16  3 17  8 18  9 11 12  2 10  1  0  6 18 16 11  1  6  2 12 13  1 14
+  3 11 18  1 10 17  2  0 18  4 18  2 14  1 11 11  6  0 14  3 10 17 13 15
+  0  4 10  6  9  3 13  4 14 15 17 19  5  9  4 14 10 15  5  7  9 19  4 12
+  9 19  5 16  7 12  5 16 12  7  8 16  8  5 13  8  7 15 19  2 17  7  8 19
+ 13 15  6  3]
+Durée :  1207
+Optimum trouvé après 1546 itérations
+Temps :  451.5182001590729
+Durée final 1207
+Ordre final [ 0 16  3 17  8 18  9 11 12  2 10  1  0  6 18 16 11  1  6  2 12 13  1 14
+  3 11 18  1 10 17  2  0 18  4 18  2 14  1 11 11  6  0 14  3 10 17 13 15
+  0  4 10  6  9  3 13  4 14 15 17 19  5  9  4 14 10 15  5  7  9 19  4 12
+  9 19  5 16  7 12  5 16 12  7  8 16  8  5 13  8  7 15 19  2 17  7  8 19
+ 13 15  6  3]

@@ -1,0 +1,277 @@
+=======Début heuristique=======
+Ordre :  [16  3  4 15 19  0  1  7 10 13 14  4  1 12  3 15  9 10  0 19  5  4  7 15
+ 14 11  8  7  3  3 16 12 17  4 14 15 13  7  3  4 12 11 10 13 13 19  5  0
+  7 15  2  4 13  3 14  0 16  0 13 14 11  7  8  4 16 10 19 13 11  2 14  4
+ 15  6  0 13  0 11  3 10  2  4  1 19  4  5 10  3  8  7  2 13  0 14 11 13
+  3  9 15 11  5 11 12 16  7  2 14 15 11 18  8  6 11 14  5  9 12 16  9  8
+  2 10  1 18 17  9 16  6 15 16  9 18  2  1  5  7  8  0 10  2  8 17 10  5
+ 15 18 16  5  1 17  0  8  2 10  7 16  3 18  5  8  2 12 14  5  8 18  1 12
+ 17  6  9 12 18  1 17  6 19  9  6  1  9 12 19 17 18 19  9 17  6 19 17 18
+ 19  6 18  1 12 17  6  6]
+Durée :  1712
+=======Fin heuristique=======
+
+=======Début descente directe=======
+Meilleur temps trouvé : 1607
+Meilleur temps trouvé : 1578
+Meilleur temps trouvé : 1574
+Meilleur temps trouvé : 1563
+Meilleur temps trouvé : 1555
+Meilleur temps trouvé : 1553
+Meilleur temps trouvé : 1551
+Meilleur temps trouvé : 1526
+Meilleur temps trouvé : 1513
+Meilleur temps trouvé : 1512
+Convergence terminée
+Descente directe :  [16  3  4 15 19  0  1  7 10 13 14  4  1 12  3 15  9 10  0 19  5  4  7 15
+ 14 11  8  7  3  3 16 12 17  4 14 15 13  7  3  4  3 12 11 10 13 13 19  5
+  0  7 15  2  4 13  3 14  0 16  0 13 14 11  7  8  4 16 10 19 13 11  2 14
+  4 15  6  0 13  0 11  3 10  2  4  1 19  4  5 10  3  8  7  2 13  0 14 11
+ 13  9 15 11  5 11 12 16  8  7  2 14 15 11 18  8  6 16 11 14  5  9 12 16
+  9  8  2 10  1 18 17  9 16  6 15 16  9 18  2  1  5  7  8  0 17 10  2  8
+ 17 10  5 15 18 16  5  6 17  0  8 12 10  7 18  5  8  2  1 12  5 18  1 12
+ 17  6  9 12 18 17  6 19  9  6  1  9 12 19 17 18 19  9 17  6 19 17  2 18
+ 19  6 14 18  1  6  1  3]
+Durée :  1512
+
+=======Début exploration génétique=======
+Iteration : 0, moyenne des durée : 1609.71, durée min : 1512, durée max : 1761
+Iteration : 50, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 100, moyenne des durée : 1513.84, durée min : 1512, durée max : 1571
+Iteration : 150, moyenne des durée : 1514.18, durée min : 1512, durée max : 1585
+Iteration : 200, moyenne des durée : 1516.44, durée min : 1512, durée max : 1585
+Iteration : 250, moyenne des durée : 1513.41, durée min : 1512, durée max : 1560
+Iteration : 300, moyenne des durée : 1512.15, durée min : 1512, durée max : 1527
+Iteration : 350, moyenne des durée : 1516.62, durée min : 1512, durée max : 1585
+Iteration : 400, moyenne des durée : 1512.22, durée min : 1512, durée max : 1534
+Iteration : 450, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 500, moyenne des durée : 1513.29, durée min : 1512, durée max : 1554
+Iteration : 550, moyenne des durée : 1513.72, durée min : 1512, durée max : 1585
+Iteration : 600, moyenne des durée : 1512.54, durée min : 1512, durée max : 1557
+Iteration : 650, moyenne des durée : 1515.85, durée min : 1512, durée max : 1571
+Iteration : 700, moyenne des durée : 1512.87, durée min : 1512, durée max : 1565
+Iteration : 750, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 800, moyenne des durée : 1513.1, durée min : 1512, durée max : 1559
+Iteration : 850, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 900, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 950, moyenne des durée : 1512.41, durée min : 1512, durée max : 1547
+Iteration : 1000, moyenne des durée : 1518.5, durée min : 1512, durée max : 1647
+Iteration : 1050, moyenne des durée : 1512.09, durée min : 1512, durée max : 1521
+Iteration : 1100, moyenne des durée : 1518.93, durée min : 1512, durée max : 1604
+Iteration : 1150, moyenne des durée : 1521.24, durée min : 1512, durée max : 1610
+Iteration : 1200, moyenne des durée : 1514.0, durée min : 1512, durée max : 1561
+Iteration : 1250, moyenne des durée : 1514.11, durée min : 1512, durée max : 1585
+Iteration : 1300, moyenne des durée : 1529.87, durée min : 1512, durée max : 1688
+Iteration : 1350, moyenne des durée : 1512.46, durée min : 1512, durée max : 1534
+Iteration : 1400, moyenne des durée : 1517.56, durée min : 1512, durée max : 1592
+Iteration : 1450, moyenne des durée : 1513.82, durée min : 1512, durée max : 1581
+Iteration : 1500, moyenne des durée : 1519.27, durée min : 1512, durée max : 1615
+Iteration : 1550, moyenne des durée : 1519.4, durée min : 1512, durée max : 1615
+Iteration : 1600, moyenne des durée : 1515.73, durée min : 1512, durée max : 1603
+Iteration : 1650, moyenne des durée : 1512.01, durée min : 1512, durée max : 1513
+Iteration : 1700, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 1750, moyenne des durée : 1513.86, durée min : 1512, durée max : 1558
+Iteration : 1800, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 1850, moyenne des durée : 1512.17, durée min : 1512, durée max : 1529
+Iteration : 1900, moyenne des durée : 1512.85, durée min : 1512, durée max : 1556
+Iteration : 1950, moyenne des durée : 1512.76, durée min : 1512, durée max : 1565
+Iteration : 2000, moyenne des durée : 1513.97, durée min : 1512, durée max : 1574
+Iteration : 2050, moyenne des durée : 1512.53, durée min : 1512, durée max : 1543
+Iteration : 2100, moyenne des durée : 1512.19, durée min : 1512, durée max : 1531
+Iteration : 2150, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 2200, moyenne des durée : 1512.96, durée min : 1512, durée max : 1565
+Iteration : 2250, moyenne des durée : 1514.68, durée min : 1512, durée max : 1578
+Iteration : 2300, moyenne des durée : 1512.26, durée min : 1512, durée max : 1532
+Iteration : 2350, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 2400, moyenne des durée : 1514.94, durée min : 1512, durée max : 1585
+Iteration : 2450, moyenne des durée : 1515.41, durée min : 1512, durée max : 1578
+Iteration : 2500, moyenne des durée : 1513.3, durée min : 1512, durée max : 1576
+Iteration : 2550, moyenne des durée : 1512.91, durée min : 1512, durée max : 1542
+Iteration : 2600, moyenne des durée : 1512.74, durée min : 1512, durée max : 1542
+Iteration : 2650, moyenne des durée : 1512.46, durée min : 1512, durée max : 1541
+Iteration : 2700, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 2750, moyenne des durée : 1523.77, durée min : 1512, durée max : 1635
+Iteration : 2800, moyenne des durée : 1516.75, durée min : 1512, durée max : 1584
+Iteration : 2850, moyenne des durée : 1512.51, durée min : 1512, durée max : 1558
+Iteration : 2900, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Iteration : 2950, moyenne des durée : 1514.39, durée min : 1512, durée max : 1585
+Iteration : 3000, moyenne des durée : 1518.35, durée min : 1512, durée max : 1635
+Iteration : 3050, moyenne des durée : 1512.0, durée min : 1512, durée max : 1512
+Meilleur temps trouvé : 1511
+=======Début descente directe=======
+=======Convergence terminée=======
+Descente directe :  [16  3  4 15 19  0  1  7 10 13 14  4  1 12  3 15  9 10  0 19  5  4  7 15
+ 14 11  8  7  3  3 16 12 17  4 14 15 13  7  3  4  3 12 11 10 13 13 19  5
+  0  7 15  2  4 13  3 14  0 16  0 13 14 11  7  8  4 16 10 19 13 11  2 14
+  4 15  6  0 13  0 11  3  7  2  4  1  4 19  5 10  3  8 10  2 13  0 14 11
+ 13  9 15 11  5 11 12 16  8  7  2 14 15 11 18  8  6 16 11 14  5  9 12 16
+  9 15 10  1 18 17  9 16  6  8 16  9 18  2  1  5  7  2  0 17 10  8  8 17
+ 10  5 15 18 16  5  2  6 17  0  8 12 10  7 18  5  8  2  1 12  5 18  1 12
+ 17  6  9 12 18 17  6 19  9  6  1  9 12 19 17 18 19  9 17  6 19 17  2 18
+ 19  6 14 18  1  6  1  3]
+Durée :  1511
+Iteration : 3100, moyenne des durée : 1511.24, durée min : 1511, durée max : 1521
+Iteration : 3150, moyenne des durée : 1511.65, durée min : 1511, durée max : 1540
+Iteration : 3200, moyenne des durée : 1512.58, durée min : 1511, durée max : 1563
+Iteration : 3250, moyenne des durée : 1511.16, durée min : 1511, durée max : 1525
+Iteration : 3300, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3350, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3400, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3450, moyenne des durée : 1511.93, durée min : 1511, durée max : 1547
+Iteration : 3500, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3550, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3600, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3650, moyenne des durée : 1513.32, durée min : 1511, durée max : 1558
+Iteration : 3700, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3750, moyenne des durée : 1512.3, durée min : 1511, durée max : 1571
+Iteration : 3800, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3850, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3900, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 3950, moyenne des durée : 1511.35, durée min : 1511, durée max : 1529
+Iteration : 4000, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4050, moyenne des durée : 1511.06, durée min : 1511, durée max : 1515
+Iteration : 4100, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4150, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4200, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4250, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4300, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4350, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4400, moyenne des durée : 1511.61, durée min : 1511, durée max : 1560
+Iteration : 4450, moyenne des durée : 1511.11, durée min : 1511, durée max : 1522
+Iteration : 4500, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4550, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4600, moyenne des durée : 1511.18, durée min : 1511, durée max : 1529
+Iteration : 4650, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4700, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4750, moyenne des durée : 1511.39, durée min : 1511, durée max : 1546
+Iteration : 4800, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4850, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4900, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 4950, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 5000, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 5050, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 5100, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 5150, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 5200, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 5250, moyenne des durée : 1512.32, durée min : 1511, durée max : 1556
+Iteration : 5300, moyenne des durée : 1511.0, durée min : 1511, durée max : 1511
+Iteration : 5350, moyenne des durée : 1511.01, durée min : 1511, durée max : 1512
+Meilleur temps trouvé : 1507
+=======Début descente directe=======
+Meilleur temps trouvé : 1490
+=======Convergence terminée=======
+Descente directe :  [16  3  4 15 19  0  1  7 10 13 14  4  1 12  3 15  9 10  0 19  5  4  7 15
+ 14 11  8  7  3  3 16 12 17  4 14 15 13  7  3  4  3 12 11 10 13 13 19  5
+  0  7 15  2  4 13  3 14  0 16  0 13 14 11  7  8  4 16 10 19 13 11  2 14
+  4 15  6  0 13  0 11  3  7  2  4  1  4 19  5 10  3  8 10  2 13  0 14 11
+ 13  9 15 11  5 11 12 16  8  7  2 14 15 11 18  8  6 16 11 14  5  9 12 16
+  9 15 10  1 18 17  9 16  6  8 17  9 18  2  1  5  7  2  0 17 10  8  8 16
+ 10  5 15 18 16  5  6  6 17  0  8 12  6  7 18  5  8  2  1 12  5 18  1 12
+ 17  6  9 12 18 17  6 19  9 10  1  9 12 19 17 18 19  9 17  6 19 17  2 18
+ 19  6 14 18  1  1  3  2]
+Durée :  1490
+Iteration : 5400, moyenne des durée : 1490.17, durée min : 1490, durée max : 1507
+Iteration : 5450, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 5500, moyenne des durée : 1490.8, durée min : 1490, durée max : 1531
+Iteration : 5550, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 5600, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 5650, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 5700, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 5750, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 5800, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 5850, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 5900, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 5950, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6000, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6050, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6100, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6150, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6200, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6250, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6300, moyenne des durée : 1490.22, durée min : 1490, durée max : 1512
+Iteration : 6350, moyenne des durée : 1490.22, durée min : 1490, durée max : 1512
+Iteration : 6400, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6450, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6500, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6550, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6600, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6650, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6700, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6750, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6800, moyenne des durée : 1490.55, durée min : 1490, durée max : 1522
+Iteration : 6850, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 6900, moyenne des durée : 1490.04, durée min : 1490, durée max : 1494
+Iteration : 6950, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7000, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7050, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7100, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7150, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7200, moyenne des durée : 1491.03, durée min : 1490, durée max : 1542
+Iteration : 7250, moyenne des durée : 1490.46, durée min : 1490, durée max : 1521
+Iteration : 7300, moyenne des durée : 1490.28, durée min : 1490, durée max : 1518
+Iteration : 7350, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7400, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7450, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7500, moyenne des durée : 1490.11, durée min : 1490, durée max : 1501
+Iteration : 7550, moyenne des durée : 1492.15, durée min : 1490, durée max : 1540
+Iteration : 7600, moyenne des durée : 1491.09, durée min : 1490, durée max : 1542
+Iteration : 7650, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7700, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7750, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Ouverture dans une session de navigateur existante.
+Iteration : 7800, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7850, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7900, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 7950, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8000, moyenne des durée : 1490.16, durée min : 1490, durée max : 1506
+Iteration : 8050, moyenne des durée : 1491.0, durée min : 1490, durée max : 1531
+Iteration : 8100, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8150, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8200, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8250, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8300, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8350, moyenne des durée : 1490.86, durée min : 1490, durée max : 1536
+Iteration : 8400, moyenne des durée : 1491.93, durée min : 1490, durée max : 1560
+Iteration : 8450, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8500, moyenne des durée : 1490.19, durée min : 1490, durée max : 1504
+Iteration : 8550, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8600, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8650, moyenne des durée : 1494.03, durée min : 1490, durée max : 1578
+Iteration : 8700, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8750, moyenne des durée : 1490.16, durée min : 1490, durée max : 1506
+Iteration : 8800, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8850, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8900, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 8950, moyenne des durée : 1491.38, durée min : 1490, durée max : 1546
+Iteration : 9000, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9050, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9100, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9150, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9200, moyenne des durée : 1492.42, durée min : 1490, durée max : 1552
+Iteration : 9250, moyenne des durée : 1490.21, durée min : 1490, durée max : 1511
+Iteration : 9300, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9350, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9400, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9450, moyenne des durée : 1491.29, durée min : 1490, durée max : 1534
+Iteration : 9500, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9550, moyenne des durée : 1491.18, durée min : 1490, durée max : 1540
+Iteration : 9600, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9650, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9700, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9750, moyenne des durée : 1490.11, durée min : 1490, durée max : 1501
+Iteration : 9800, moyenne des durée : 1490.79, durée min : 1490, durée max : 1546
+Iteration : 9850, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9900, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Iteration : 9950, moyenne des durée : 1490.0, durée min : 1490, durée max : 1490
+Optimum non trouvé après 9999 itérations
+Temps :  4202.471615552902
+Durée final 1490
+Ordre final [16  3  4 15 19  0  1  7 10 13 14  4  1 12  3 15  9 10  0 19  5  4  7 15
+ 14 11  8  7  3  3 16 12 17  4 14 15 13  7  3  4  3 12 11 10 13 13 19  5
+  0  7 15  2  4 13  3 14  0 16  0 13 14 11  7  8  4 16 10 19 13 11  2 14
+  4 15  6  0 13  0 11  3  7  2  4  1  4 19  5 10  3  8 10  2 13  0 14 11
+ 13  9 15 11  5 11 12 16  8  7  2 14 15 11 18  8  6 16 11 14  5  9 12 16
+  9 15 10  1 18 17  9 16  6  8 17  9 18  2  1  5  7  2  0 17 10  8  8 16
+ 10  5 15 18 16  5  6  6 17  0  8 12  6  7 18  5  8  2  1 12  5 18  1 12
+ 17  6  9 12 18 17  6 19  9 10  1  9 12 19 17 18 19  9 17  6 19 17  2 18
+ 19  6 14 18  1  1  3  2]

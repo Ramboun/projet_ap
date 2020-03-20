@@ -1,0 +1,48 @@
+Ouverture dans une session de navigateur existante.
+=======Début heuristique=======
+Ordre :  [16  7  2  9 12  1 17  7 15  3 11  2 14  1  9  7 15 11 14  8  0 12 15  3
+ 11  6  1  8 13 19  3  6  1 13  8 10  3 12  1  6 11  3  9 13 15  6  8 13
+  4 12 11  6  5  9  7  4  8 12 13 19 16  5  7 16  5 17 16  9  0  4 15 16
+ 19 14  4  0 19  5 10 14 17  5  4  0 19 10 14 18 10 17  2 10  0 18  2  2
+ 17 18 18 18]
+Durée :  1410
+=======Fin heuristique=======
+
+=======Début descente directe=======
+Meilleur temps trouvé : 1313
+Meilleur temps trouvé : 1286
+Meilleur temps trouvé : 1245
+Meilleur temps trouvé : 1240
+Meilleur temps trouvé : 1239
+Meilleur temps trouvé : 1224
+Meilleur temps trouvé : 1222
+Convergence terminée
+Descente directe :  [16  7  2  9 12  1 17  7 15  3 11  2 14  1  9  7 15 11 14  8  0 12 15  3
+ 11  6  1  8 13 19  3  6  1 13  8 10  3 12  1  6 11  3 13 15  6  8 13  4
+ 12 11  6  5  9  7  4  8 14 19 16  5  7 16  5 17 16  0  4 16 19 14  4  0
+ 19  5 10 17  5  4 18 19 10 13 18 10 17  2 10  0 18  2  2 17 12 18 18  0
+ 15 14  9  9]
+Durée :  1222
+
+=======Début exploration génétique=======
+Iteration : 0, moyenne des durée : 1258.64, durée min : 1222, durée max : 1345
+Meilleur temps trouvé : 1217
+=======Début descente directe=======
+Meilleur temps trouvé : 1197
+Meilleur temps trouvé : 1168
+Meilleur temps trouvé : 1150
+=======Convergence terminée=======
+Descente directe :  [16  7  2  9 12  1 17  7 15  3 11  2 14 10  9  7 15 11 14  8  0 12 15  3
+ 11  6  1  8 13 19  3  6 13  9  8 10  3 12  1  6 11  3 13 15  6  8 13  4
+ 12 11  6  5  9  7  4  8 19 16  5  7 16  5 17 16  0  4 16 19 10  5  0 19
+  4 10 17  5  4 18 19 10 14 13 18  1 17  2 14  0 18  2  2 17 12 18 18  0
+ 15 14  9  1]
+Durée :  1150
+Optimum trouvé après 20 itérations
+Temps :  149.88184523582458
+Durée final 1150
+Ordre final [16  7  2  9 12  1 17  7 15  3 11  2 14 10  9  7 15 11 14  8  0 12 15  3
+ 11  6  1  8 13 19  3  6 13  9  8 10  3 12  1  6 11  3 13 15  6  8 13  4
+ 12 11  6  5  9  7  4  8 19 16  5  7 16  5 17 16  0  4 16 19 10  5  0 19
+  4 10 17  5  4 18 19 10 14 13 18  1 17  2 14  0 18  2  2 17 12 18 18  0
+ 15 14  9  1]
